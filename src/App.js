@@ -15,7 +15,11 @@ function App() {
   return (
     <main>
       <h1>PB War Portal</h1>
-      
+     
+     
+      <br />
+      <h2>The date according to Go is:</h2>
+      <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
 }
