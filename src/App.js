@@ -19,7 +19,7 @@ function App() {
      
 
       <div id="header">
-        <img id="logo" src="core/src/logo.png"><br/>
+        <img id="logo" src="core/src/logo.png"></img><br/>
         PB War Portal
   </div>
 
@@ -37,12 +37,12 @@ function App() {
       <hr/>
       
       <div id="result">
-      <!-- Order by -->
+    
       Order by: <select ng-model="orderBySelected" ng-options="option.option for option in orderByOptions"></select>
       Filter: <select ng-model="triboSelected" ng-options="tribo.name for tribo in TRIBOS" value="{{tribo.id}}"></select>
       <input type="submit" ng-click="clear()" value="Limpar" />
       <br/><br/>
-      <label>Busca: <input data-ng-model="search"></label>
+      <label>Busca: <input data-ng-model="search" /></label>
       <table>
         <th>Jogador</th>
         <th>Aldeia</th>
@@ -53,14 +53,7 @@ function App() {
         <th>Distancia</th>
         <th>Tempo</th>
         <tr ng-repeat="result in results | orderBy: orderBySelected.option:orderBySelected.orderReverse | filter: { nickname: search, tribo:triboSelected.id}">
-          <td>{{ result.nickname }}</td> 
-          <td>{{ result.aldeia  }}</td>
-          <td>{{ result.x  }}</td>
-          <td>{{ result.y  }}</td>  
-          <td>{{ TRIBOS[result.tribo].name }}</td> 
-          <td>{{ result.army }}</td> 
-          <td>{{ result.distance  | number: 1}}</td>
-          <td>{{ result.time | myDateFilter}}</td>
+        
         </tr>
       </table>
     </div>
@@ -68,7 +61,7 @@ function App() {
 
 
 
-     
+
       <br />
       <h2>The date according to Go is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
