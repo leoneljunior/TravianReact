@@ -19,7 +19,7 @@ function App() {
      
 
       <div id="header">
-        <img id="logo" src="core/src/logo.png"></img><br/>
+        <img id="logo" alt="" src="core/src/logo.png"></img><br/>
         PB War Portal
   </div>
 
