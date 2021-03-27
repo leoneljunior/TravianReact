@@ -1,5 +1,4 @@
 import React from 'react'
-import {Distancia} from './calculation/distancia'
 
 function calcDistancia(x1, y1, x2, y2){
   var distancia1 =   (x1 - x2)*(x1 - x2);
@@ -10,7 +9,7 @@ function calcDistancia(x1, y1, x2, y2){
 }
 function sortLogic(a, b, sortStr) {
 
-  if(sortStr == 'army') {
+  if(sortStr === 'army') {
     return a[sortStr] < b[sortStr];
   } else {
     return a[sortStr] > b[sortStr];
