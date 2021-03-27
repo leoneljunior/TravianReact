@@ -65,12 +65,14 @@ export class App extends React.Component {
             <hr />
             <div style={{width: 400}}>
               <MyFilters />
-              Buscar por Jogador: <input type="text" name="filterStr" value={this.state.filterStr} onChange={this.handleChange} /> <br /><br />
-              <Select
-                value={this.state.selectedOption}
-                onChange={this.handleChange}
-                options={this.options}
-              />
+                Buscar por Jogador:<br />
+                <input type="text" name="filterStr" value={this.state.filterStr} onChange={this.handleChange} /> <br /><br />
+                Ordenar por:<br />
+                <Select
+                  value={this.state.selectedOption}
+                  onChange={this.handleChange}
+                  options={this.options}
+                />
             </div>
             <MyTable filterStr={this.state.filterStr} sort={this.state.selectedOption} x={this.state.x} y={this.state.y} />
             <Root />
