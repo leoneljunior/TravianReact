@@ -19,7 +19,6 @@ function sortLogic(a, b, sortStr) {
 export class MyTable extends React.Component {
     render(){
       
-      const distancia = calcDistancia();
       console.log("Test");
       const aldeiasList = aldeias.filter((aldeia, i) => aldeia.nickname.toLowerCase().includes(this.props.filterStr.toLowerCase())).sort((a, b) => (sortLogic(a, b, this.props.sort)) ? 1 : -1).map((aldeia, i) => 
         <tr key={i}>
