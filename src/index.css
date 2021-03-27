@@ -12,3 +12,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* app css stylesheet */
+
+body{
+	padding: 10px;
+	background-color: #F3F9FB;
+	font-family: "Lucida Console", "Courier New", "monospace";
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#logo{
+	width: 250px;
+}
+
+#header{
+	font-family: "Copperplate", "Courier New", "monospace";
+	text-align: center;
+	font-size: 35px;
+}
+
+
+#body{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 90%;
+}
+
+#filters{
+
+}
+
+#result{
+
+}
+
+#root{
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*  Selectors  */
+
+.imput_small{
+	width: 45px;
+}
+
+
+
+/*  Selectors  */
+
+/*  Buttom */
+
+.button {
+  background-color: #D94E10; /* Green */
+  border: none;
+  color: white;
+  width: 150px;
+  height: 40px;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Helvetica";
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #D94E10; 
+  color: white; 
+  border: 2px solid #D94E10;
+}
+
+.button1:hover {
+  background-color: #A03708;
+  color: white;
+  font-style: bold;
+}
+
+/*  Buttom */
+
+
