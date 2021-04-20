@@ -29,7 +29,6 @@ export class MyTable extends React.Component {
           <td>{aldeia.tribo}</td>
           <td>{aldeia.army}</td>
           <td>{aldeia.distancia = parseFloat(calcDistancia(aldeia.x, aldeia.y, this.props.x, this.props.y).toFixed(2))}</td>
-          <td>{aldeia.time}</td>
         </tr>);
 
       return (
