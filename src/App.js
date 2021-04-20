@@ -40,7 +40,9 @@ export class App extends React.Component {
     { id: "1", value: "nickname", label: "Jogador", name: 'selectedOption' },
     { id: "2", value: "aldeia", label: "Aldeia", name: 'selectedOption' },
     { id: "3", value: "army", label: "Tropas", name: 'selectedOption' },
-    { id: "4", value: "distancia", label: "Distancia", name: 'selectedOption' }
+    { id: "4", value: "distancia", label: "Distancia", name: 'selectedOption' },
+    { id: "4", value: "Catapultas", label: "Catapultas", name: 'selectedOption' },
+    { id: "4", value: "Tesouraria", label: "Tesouraria", name: 'selectedOption' }
   ];
 
   handleChangeOption = sort => {
@@ -115,7 +117,7 @@ const tableHeadDefensores = (
       "Tesouraria": 10,
       "tesouraria_x": -49,
       "tesouraria_y": 92,
-      "Catapultas": "1 600"
+      "Catapultas": 1600
     },
     {
       "nickname": "curdio",
@@ -124,7 +126,7 @@ const tableHeadDefensores = (
       "Tesouraria": 10,
       "tesouraria_x": -42,
       "tesouraria_y": 92,
-      "Catapultas": "1 600"
+      "Catapultas": 1600
     },
     {
       "nickname": "Jara",
@@ -142,7 +144,7 @@ const tableHeadDefensores = (
       "Tesouraria": 9,
       "tesouraria_x": -18,
       "tesouraria_y": 83,
-      "Catapultas": "1 600"
+      "Catapultas": 1600
     },
     {
       "nickname": "Caçador",
@@ -709,7 +711,7 @@ const tableHeadDefensores = (
       "Tesouraria": 20,
       "tesouraria_x": -54,
       "tesouraria_y": 32,
-      "Catapultas": "2 500"
+      "Catapultas": 2500
     },
     {
       "nickname": "Greatmadwarrior",
@@ -718,7 +720,7 @@ const tableHeadDefensores = (
       "Tesouraria": 10,
       "tesouraria_x": -53,
       "tesouraria_y": 31,
-      "Catapultas": "2 500"
+      "Catapultas": 2500
     },
     {
       "nickname": "kadilak",
@@ -907,7 +909,7 @@ const tableHeadDefensores = (
       "Tesouraria": 10,
       "tesouraria_x": -181,
       "tesouraria_y": 45,
-      "Catapultas": "1 461"
+      "Catapultas": 1461
     },
     {
       "nickname": "-clone-",
@@ -916,7 +918,7 @@ const tableHeadDefensores = (
       "Tesouraria": 12,
       "tesouraria_x": -181,
       "tesouraria_y": 44,
-      "Catapultas": "1 461"
+      "Catapultas": 1461
     },
     {
       "nickname": "therain",

@@ -9,7 +9,7 @@ function calcDistancia(x1, y1, x2, y2){
 }
 function sortLogic(a, b, sortStr) {
 
-  if(sortStr === 'army') {
+  if(sortStr === 'army' || sortStr === 'Catapultas' || sortStr === 'Tesouraria') {
     return a[sortStr] < b[sortStr];
   } else {
     return a[sortStr] > b[sortStr];
