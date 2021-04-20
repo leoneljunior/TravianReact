@@ -98,7 +98,7 @@ export class App extends React.Component {
       <th>Catapultas</th>
       <th>Distancia</th>      
     </tr>);
-
+ 
 const tableHeadDefensores = (
   <tr>
     <th>Jogador</th>
