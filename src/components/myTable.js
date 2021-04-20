@@ -22,7 +22,7 @@ export class MyTable extends React.Component {
       console.log("Test");
       var aldeiasList = {};
       var tableHeader = this.props.tableHeader;
-      if(this.props.type === 1){
+      if(this.props.type === '1'){
 
         aldeiasList = this.props.data.filter((aldeia, i) => aldeia.nickname.toLowerCase().includes(this.props.filterStr.toLowerCase())).sort((a, b) => (sortLogic(a, b, this.props.sort)) ? 1 : -1).map((aldeia, i) => 
         <tr key={i}>
