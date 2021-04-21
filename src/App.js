@@ -42,7 +42,7 @@ export class App extends React.Component {
     { id: "3", value: "army", label: "Tropas", name: 'selectedOption' },
     { id: "4", value: "distancia", label: "Distancia", name: 'selectedOption' },
     { id: "4", value: "Catapultas", label: "Catapultas", name: 'selectedOption' },
-    { id: "4", value: "Tesouraria", label: "Tesouraria", name: 'selectedOption' }
+    { id: "4", value: "tesouraria", label: "Tesouraria", name: 'selectedOption' }
   ];
 
   handleChangeOption = sort => {
@@ -114,7 +114,7 @@ const tableHeadDefensores = (
       "nickname": "curdio",
       "x": -49,
       "y": 92,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -49,
       "tesouraria_y": 92,
       "Catapultas": 1600
@@ -123,7 +123,7 @@ const tableHeadDefensores = (
       "nickname": "curdio",
       "x": -49,
       "y": 92,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -42,
       "tesouraria_y": 92,
       "Catapultas": 1600
@@ -132,7 +132,7 @@ const tableHeadDefensores = (
       "nickname": "Jara",
       "x": -23,
       "y": 26,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -141,7 +141,7 @@ const tableHeadDefensores = (
       "nickname": "trovao18",
       "x": -18,
       "y": 83,
-      "Tesouraria": 9,
+      "tesouraria": 9,
       "tesouraria_x": -18,
       "tesouraria_y": 83,
       "Catapultas": 1600
@@ -150,7 +150,7 @@ const tableHeadDefensores = (
       "nickname": "Caçador",
       "x": -31,
       "y": -29,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -31,
       "tesouraria_y": -29,
       "Catapultas": 100
@@ -159,7 +159,7 @@ const tableHeadDefensores = (
       "nickname": "Heitor Troiano",
       "x": -25,
       "y": 24,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 115
@@ -168,7 +168,7 @@ const tableHeadDefensores = (
       "nickname": "SirGoncalves",
       "x": -31,
       "y": 58,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 18
@@ -177,7 +177,7 @@ const tableHeadDefensores = (
       "nickname": "Digaobd",
       "x": -3,
       "y": 13,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -3,
       "tesouraria_y": 13,
       "Catapultas": 650
@@ -186,7 +186,7 @@ const tableHeadDefensores = (
       "nickname": "Digaobd",
       "x": -30,
       "y": -11,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -3,
       "tesouraria_y": 13,
       "Catapultas": 650
@@ -195,7 +195,7 @@ const tableHeadDefensores = (
       "nickname": "Miguel3532",
       "x": -17,
       "y": -47,
-      "Tesouraria": 1,
+      "tesouraria": 1,
       "tesouraria_x": -17,
       "tesouraria_y": -47,
       "Catapultas": 130
@@ -204,7 +204,7 @@ const tableHeadDefensores = (
       "nickname": "Maligno",
       "x": -46,
       "y": -32,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 40
@@ -213,7 +213,7 @@ const tableHeadDefensores = (
       "nickname": "Kule",
       "x": 35,
       "y": 68,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 200
@@ -222,7 +222,7 @@ const tableHeadDefensores = (
       "nickname": "Raito",
       "x": -17,
       "y": -37,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 24
@@ -231,7 +231,7 @@ const tableHeadDefensores = (
       "nickname": "jacaestou",
       "x": 11,
       "y": 43,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 60
@@ -240,7 +240,7 @@ const tableHeadDefensores = (
       "nickname": "CaféFrio",
       "x": -33,
       "y": -75,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -63,
       "tesouraria_y": -185,
       "Catapultas": 144
@@ -249,7 +249,7 @@ const tableHeadDefensores = (
       "nickname": "CaféFrio",
       "x": -33,
       "y": -75,
-      "Tesouraria": 5,
+      "tesouraria": 5,
       "tesouraria_x": -33,
       "tesouraria_y": -75,
       "Catapultas": 144
@@ -258,7 +258,7 @@ const tableHeadDefensores = (
       "nickname": "Fortunee",
       "x": -32,
       "y": -6,
-      "Tesouraria": 5,
+      "tesouraria": 5,
       "tesouraria_x": -32,
       "tesouraria_y": -6,
       "Catapultas": 150
@@ -267,7 +267,7 @@ const tableHeadDefensores = (
       "nickname": "Saca",
       "x": -35,
       "y": 37,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 700
@@ -276,7 +276,7 @@ const tableHeadDefensores = (
       "nickname": "Dunkirck",
       "x": -8,
       "y": 113,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -8,
       "tesouraria_y": 113,
       "Catapultas": 350
@@ -285,7 +285,7 @@ const tableHeadDefensores = (
       "nickname": "Stark",
       "x": -79,
       "y": -49,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -87,
       "tesouraria_y": -55,
       "Catapultas": 250
@@ -294,7 +294,7 @@ const tableHeadDefensores = (
       "nickname": "Stark",
       "x": -79,
       "y": -49,
-      "Tesouraria": 2,
+      "tesouraria": 2,
       "tesouraria_x": -79,
       "tesouraria_y": -49,
       "Catapultas": 250
@@ -303,7 +303,7 @@ const tableHeadDefensores = (
       "nickname": "ThescoxD",
       "x": -39,
       "y": -28,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 300
@@ -312,7 +312,7 @@ const tableHeadDefensores = (
       "nickname": "Micalateia",
       "x": -21,
       "y": -65,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -21,
       "tesouraria_y": -65,
       "Catapultas": 271
@@ -321,7 +321,7 @@ const tableHeadDefensores = (
       "nickname": "lucaseliana",
       "x": -16,
       "y": 97,
-      "Tesouraria": 12,
+      "tesouraria": 12,
       "tesouraria_x": -16,
       "tesouraria_y": 97,
       "Catapultas": 250
@@ -330,7 +330,7 @@ const tableHeadDefensores = (
       "nickname": "ikill_agg",
       "x": -15,
       "y": 0,
-      "Tesouraria": 9,
+      "tesouraria": 9,
       "tesouraria_x": -27,
       "tesouraria_y": -18,
       "Catapultas": 5
@@ -339,7 +339,7 @@ const tableHeadDefensores = (
       "nickname": "ikill_agg",
       "x": -15,
       "y": 0,
-      "Tesouraria": 9,
+      "tesouraria": 9,
       "tesouraria_x": -26,
       "tesouraria_y": -14,
       "Catapultas": 5
@@ -348,7 +348,7 @@ const tableHeadDefensores = (
       "nickname": "Dylan",
       "x": -28,
       "y": 51,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 60
@@ -357,7 +357,7 @@ const tableHeadDefensores = (
       "nickname": "Ratxinho23",
       "x": -50,
       "y": 37,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 25
@@ -366,7 +366,7 @@ const tableHeadDefensores = (
       "nickname": "cururuteitei",
       "x": -17,
       "y": 31,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 50
@@ -375,7 +375,7 @@ const tableHeadDefensores = (
       "nickname": "ZeTeutao3000r",
       "x": -2,
       "y": 81,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 30
@@ -384,7 +384,7 @@ const tableHeadDefensores = (
       "nickname": "Replause",
       "x": -25,
       "y": 40,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 10
@@ -393,7 +393,7 @@ const tableHeadDefensores = (
       "nickname": "triton",
       "x": -60,
       "y": 120,
-      "Tesouraria": 6,
+      "tesouraria": 6,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -402,7 +402,7 @@ const tableHeadDefensores = (
       "nickname": "J Martins",
       "x": -50,
       "y": -34,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 272
@@ -411,7 +411,7 @@ const tableHeadDefensores = (
       "nickname": "Jonas",
       "x": -34,
       "y": 61,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -34,
       "tesouraria_y": 61,
       "Catapultas": 250
@@ -420,7 +420,7 @@ const tableHeadDefensores = (
       "nickname": "Jonas",
       "x": -34,
       "y": 61,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -32,
       "tesouraria_y": 64,
       "Catapultas": 250
@@ -429,7 +429,7 @@ const tableHeadDefensores = (
       "nickname": "Peras",
       "x": -90,
       "y": -10,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 150
@@ -438,7 +438,7 @@ const tableHeadDefensores = (
       "nickname": "cozaeloza",
       "x": -22,
       "y": 74,
-      "Tesouraria": 2,
+      "tesouraria": 2,
       "tesouraria_x": -23,
       "tesouraria_y": 44,
       "Catapultas": 50
@@ -447,7 +447,7 @@ const tableHeadDefensores = (
       "nickname": "jmrf",
       "x": -66,
       "y": 55,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 12
@@ -456,7 +456,7 @@ const tableHeadDefensores = (
       "nickname": "tamtom",
       "x": -18,
       "y": 54,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -18,
       "tesouraria_y": 54,
       "Catapultas": 40
@@ -465,7 +465,7 @@ const tableHeadDefensores = (
       "nickname": "schtybi",
       "x": -71,
       "y": -60,
-      "Tesouraria": 14,
+      "tesouraria": 14,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 788
@@ -474,7 +474,7 @@ const tableHeadDefensores = (
       "nickname": "Daniloqr",
       "x": -54,
       "y": 10,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 150
@@ -483,7 +483,7 @@ const tableHeadDefensores = (
       "nickname": "Caça Rato",
       "x": -66,
       "y": 39,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 0
@@ -492,7 +492,7 @@ const tableHeadDefensores = (
       "nickname": "Mestre Guerra",
       "x": -40,
       "y": 23,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -501,7 +501,7 @@ const tableHeadDefensores = (
       "nickname": "Miguel3532",
       "x": -17,
       "y": -47,
-      "Tesouraria": 1,
+      "tesouraria": 1,
       "tesouraria_x": -17,
       "tesouraria_y": -47,
       "Catapultas": 150
@@ -510,7 +510,7 @@ const tableHeadDefensores = (
       "nickname": "Dest9",
       "x": -24,
       "y": 135,
-      "Tesouraria": 25,
+      "tesouraria": 25,
       "tesouraria_x": -24,
       "tesouraria_y": 135,
       "Catapultas": 700
@@ -519,7 +519,7 @@ const tableHeadDefensores = (
       "nickname": "Dest9",
       "x": -24,
       "y": 135,
-      "Tesouraria": 20,
+      "tesouraria": 20,
       "tesouraria_x": -26,
       "tesouraria_y": 135,
       "Catapultas": 700
@@ -528,7 +528,7 @@ const tableHeadDefensores = (
       "nickname": "Dest9",
       "x": -24,
       "y": 135,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -28,
       "tesouraria_y": 134,
       "Catapultas": 700
@@ -537,7 +537,7 @@ const tableHeadDefensores = (
       "nickname": "Caçador",
       "x": -31,
       "y": -29,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -31,
       "tesouraria_y": -29,
       "Catapultas": 100
@@ -546,7 +546,7 @@ const tableHeadDefensores = (
       "nickname": "athos",
       "x": -63,
       "y": 60,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -63,
       "tesouraria_y": 60,
       "Catapultas": 150
@@ -555,7 +555,7 @@ const tableHeadDefensores = (
       "nickname": "dj_animal",
       "x": -135,
       "y": 6,
-      "Tesouraria": 8,
+      "tesouraria": 8,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 4
@@ -564,7 +564,7 @@ const tableHeadDefensores = (
       "nickname": "Scalabis",
       "x": 22,
       "y": 81,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": 22,
       "tesouraria_y": 81,
       "Catapultas": 80
@@ -573,7 +573,7 @@ const tableHeadDefensores = (
       "nickname": "Samuraix",
       "x": -35,
       "y": 26,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 160
@@ -582,7 +582,7 @@ const tableHeadDefensores = (
       "nickname": "Berlin",
       "x": -11,
       "y": 32,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 120
@@ -591,7 +591,7 @@ const tableHeadDefensores = (
       "nickname": "Spartakos",
       "x": -4,
       "y": 36,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 55
@@ -600,7 +600,7 @@ const tableHeadDefensores = (
       "nickname": "Gualdim",
       "x": -53,
       "y": 70,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 5
@@ -609,7 +609,7 @@ const tableHeadDefensores = (
       "nickname": "A&P",
       "x": -14,
       "y": 31,
-      "Tesouraria": 8,
+      "tesouraria": 8,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 280
@@ -618,7 +618,7 @@ const tableHeadDefensores = (
       "nickname": "A&P",
       "x": -44,
       "y": 81,
-      "Tesouraria": 6,
+      "tesouraria": 6,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 0
@@ -627,7 +627,7 @@ const tableHeadDefensores = (
       "nickname": "bnymnalagoz",
       "x": -105,
       "y": 21,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 110
@@ -636,7 +636,7 @@ const tableHeadDefensores = (
       "nickname": "Picachu",
       "x": -3,
       "y": 54,
-      "Tesouraria": 8,
+      "tesouraria": 8,
       "tesouraria_x": -8,
       "tesouraria_y": 52,
       "Catapultas": 229
@@ -645,7 +645,7 @@ const tableHeadDefensores = (
       "nickname": "Piudias",
       "x": -12,
       "y": 102,
-      "Tesouraria": 7,
+      "tesouraria": 7,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -654,7 +654,7 @@ const tableHeadDefensores = (
       "nickname": "Andrebelo",
       "x": -26,
       "y": 86,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 300
@@ -663,7 +663,7 @@ const tableHeadDefensores = (
       "nickname": "Kaumau",
       "x": 2,
       "y": "",
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 300
@@ -672,7 +672,7 @@ const tableHeadDefensores = (
       "nickname": "tmsl7657",
       "x": -18,
       "y": 90,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -18,
       "tesouraria_y": 90,
       "Catapultas": 100
@@ -681,7 +681,7 @@ const tableHeadDefensores = (
       "nickname": "Sheikim",
       "x": -111,
       "y": -7,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -111,
       "tesouraria_y": -7,
       "Catapultas": 360
@@ -690,7 +690,7 @@ const tableHeadDefensores = (
       "nickname": "Sheikim",
       "x": -111,
       "y": -7,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -114,
       "tesouraria_y": -5,
       "Catapultas": 360
@@ -699,7 +699,7 @@ const tableHeadDefensores = (
       "nickname": "Sheikim",
       "x": -111,
       "y": -7,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -113,
       "tesouraria_y": -6,
       "Catapultas": 360
@@ -708,7 +708,7 @@ const tableHeadDefensores = (
       "nickname": "Greatmadwarrior",
       "x": -54,
       "y": 32,
-      "Tesouraria": 20,
+      "tesouraria": 20,
       "tesouraria_x": -54,
       "tesouraria_y": 32,
       "Catapultas": 2500
@@ -717,7 +717,7 @@ const tableHeadDefensores = (
       "nickname": "Greatmadwarrior",
       "x": -53,
       "y": 31,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -53,
       "tesouraria_y": 31,
       "Catapultas": 2500
@@ -726,7 +726,7 @@ const tableHeadDefensores = (
       "nickname": "kadilak",
       "x": -102,
       "y": 71,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 20
@@ -735,7 +735,7 @@ const tableHeadDefensores = (
       "nickname": "Sadge",
       "x": -26,
       "y": -4,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 125
@@ -744,7 +744,7 @@ const tableHeadDefensores = (
       "nickname": "Foxerilo",
       "x": -65,
       "y": 25,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -753,7 +753,7 @@ const tableHeadDefensores = (
       "nickname": "Shanpioon",
       "x": -69,
       "y": -96,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 0
@@ -762,7 +762,7 @@ const tableHeadDefensores = (
       "nickname": "Raum",
       "x": -86,
       "y": 30,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -86,
       "tesouraria_y": 30,
       "Catapultas": 150
@@ -771,7 +771,7 @@ const tableHeadDefensores = (
       "nickname": "binho games",
       "x": -26,
       "y": 39,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 49
@@ -780,7 +780,7 @@ const tableHeadDefensores = (
       "nickname": "Dukedepaus",
       "x": -62,
       "y": 142,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -62,
       "tesouraria_y": 142,
       "Catapultas": 350
@@ -789,7 +789,7 @@ const tableHeadDefensores = (
       "nickname": "Ferro",
       "x": -16,
       "y": -4,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": -16,
       "tesouraria_y": -4,
       "Catapultas": 180
@@ -798,7 +798,7 @@ const tableHeadDefensores = (
       "nickname": "cennsurado",
       "x": -56,
       "y": 13,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -807,7 +807,7 @@ const tableHeadDefensores = (
       "nickname": "Smokemachine OBS: refazendo army",
       "x": -62,
       "y": -47,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -43,
       "tesouraria_y": -66,
       "Catapultas": 106
@@ -816,7 +816,7 @@ const tableHeadDefensores = (
       "nickname": "porthus",
       "x": -64,
       "y": 61,
-      "Tesouraria": 12,
+      "tesouraria": 12,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 350
@@ -825,7 +825,7 @@ const tableHeadDefensores = (
       "nickname": "el matador",
       "x": -36,
       "y": -20,
-      "Tesouraria": 3,
+      "tesouraria": 3,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 155
@@ -834,7 +834,7 @@ const tableHeadDefensores = (
       "nickname": "Sulivan Ramos",
       "x": -181,
       "y": 183,
-      "Tesouraria": "",
+      "tesouraria": "",
       "tesouraria_x": -181,
       "tesouraria_y": 184,
       "Catapultas": 830
@@ -843,7 +843,7 @@ const tableHeadDefensores = (
       "nickname": "Sulivan Ramos",
       "x": -181,
       "y": 183,
-      "Tesouraria": "",
+      "tesouraria": "",
       "tesouraria_x": -181,
       "tesouraria_y": 183,
       "Catapultas": 830
@@ -852,7 +852,7 @@ const tableHeadDefensores = (
       "nickname": "Dr Gilvago",
       "x": -58,
       "y": 18,
-      "Tesouraria": "",
+      "tesouraria": "",
       "tesouraria_x": -52,
       "tesouraria_y": 27,
       "Catapultas": 45
@@ -861,7 +861,7 @@ const tableHeadDefensores = (
       "nickname": "NoobLeader",
       "x": -52,
       "y": 22,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 0
@@ -870,7 +870,7 @@ const tableHeadDefensores = (
       "nickname": "Banner",
       "x": -27,
       "y": 44,
-      "Tesouraria": 1,
+      "tesouraria": 1,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 3
@@ -879,7 +879,7 @@ const tableHeadDefensores = (
       "nickname": "mistic",
       "x": -25,
       "y": 45,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -25,
       "tesouraria_y": 45,
       "Catapultas": 375
@@ -888,7 +888,7 @@ const tableHeadDefensores = (
       "nickname": "meola",
       "x": -2,
       "y": 87,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 50
@@ -897,7 +897,7 @@ const tableHeadDefensores = (
       "nickname": "Os Manos",
       "x": -46,
       "y": -127,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 650
@@ -906,7 +906,7 @@ const tableHeadDefensores = (
       "nickname": "-clone-",
       "x": -181,
       "y": 45,
-      "Tesouraria": 10,
+      "tesouraria": 10,
       "tesouraria_x": -181,
       "tesouraria_y": 45,
       "Catapultas": 1461
@@ -915,7 +915,7 @@ const tableHeadDefensores = (
       "nickname": "-clone-",
       "x": -181,
       "y": 45,
-      "Tesouraria": 12,
+      "tesouraria": 12,
       "tesouraria_x": -181,
       "tesouraria_y": 44,
       "Catapultas": 1461
@@ -924,7 +924,7 @@ const tableHeadDefensores = (
       "nickname": "therain",
       "x": -40,
       "y": -61,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 100
@@ -933,7 +933,7 @@ const tableHeadDefensores = (
       "nickname": "ROLHAS",
       "x": -123,
       "y": 176,
-      "Tesouraria": 20,
+      "tesouraria": 20,
       "tesouraria_x": -123,
       "tesouraria_y": 176,
       "Catapultas": 885
@@ -942,7 +942,7 @@ const tableHeadDefensores = (
       "nickname": "TR!PA SECA",
       "x": -55,
       "y": 148,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 370
@@ -951,12 +951,49 @@ const tableHeadDefensores = (
       "nickname": "Jehungir Agha",
       "x": -28,
       "y": -48,
-      "Tesouraria": 0,
+      "tesouraria": 0,
       "tesouraria_x": "",
       "tesouraria_y": "",
       "Catapultas": 20
+    },
+    {
+      "nickname": "Mir",
+      "x": -26,
+      "y": 164,
+      "tesouraria": 10,
+      "tesouraria_x": "",
+      "tesouraria_y": "",
+      "Catapultas": 840
+    },
+    {
+      "nickname": "Pyotrek",
+      "x": -36,
+      "y": 161,
+      "tesouraria": "",
+      "tesouraria_x": -36,
+      "tesouraria_y": 161,
+      "Catapultas": 600
     }
   ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   const aldeiasDefensoras = [

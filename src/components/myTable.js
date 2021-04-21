@@ -9,7 +9,7 @@ function calcDistancia(x1, y1, x2, y2){
 }
 function sortLogic(a, b, sortStr) {
 
-  if(sortStr === 'army' || sortStr === 'Catapultas' || sortStr === 'Tesouraria') {
+  if(sortStr === 'army' || sortStr === 'Catapultas' || sortStr === 'tesouraria') {
     return a[sortStr] < b[sortStr];
   } else {
     return a[sortStr] > b[sortStr];
@@ -28,7 +28,7 @@ export class MyTable extends React.Component {
         <tr key={i}>
           <td>{aldeia.nickname}</td>
           <td>{aldeia.x} | {aldeia.y}</td>
-          <td>Nível {aldeia.Tesouraria}</td>
+          <td>Nível {aldeia.tesouraria}</td>
           <td>{aldeia.tesouraria_x} | {aldeia.tesouraria_y}</td>
           <td>{aldeia.Catapultas}</td>
           <td>{aldeia.distancia = parseFloat(calcDistancia(Number(aldeia.x), Number(aldeia.y), this.props.x, this.props.y).toFixed(2))}</td>
