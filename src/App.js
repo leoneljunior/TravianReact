@@ -973,6 +973,15 @@ const tableHeadDefensores = (
       "tesouraria_x": -36,
       "tesouraria_y": 161,
       "Catapultas": 600
+    },
+    {
+      "nickname": "mamicadecadela",
+      "x": -111,
+      "y": 14,
+      "tesouraria": "",
+      "tesouraria_x": "",
+      "tesouraria_y": "",
+      "Catapultas": 100
     }
   ];
 
